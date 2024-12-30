@@ -609,7 +609,6 @@ export async function createAgent(
                 ? avalanchePlugin
                 : null,
             getSecret(character, "FEREAI_USER_ID") ? fereProPlugin : null,
-            getSecret(character, "FEREAI_API_KEY") ? fereProPlugin : null,
         ].filter(Boolean),
         providers: [],
         actions: [],
